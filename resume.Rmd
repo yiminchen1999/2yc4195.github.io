@@ -8,7 +8,8 @@ output: html_document
 knitr::include_graphics("files/yiminchen_resumev2.pdf")
 ```
 
-RESUME IN WORDS
+RESUME IN TYPED VERSION
+
 
 PROFESSIONAL SUMMARY
 
