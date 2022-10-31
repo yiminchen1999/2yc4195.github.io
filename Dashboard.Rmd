@@ -14,7 +14,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r, include=FALSE}
+```{r}
 data(instacart)
 instacart = instacart %>% 
   sample_n(1000)
