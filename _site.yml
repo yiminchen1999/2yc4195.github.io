@@ -11,7 +11,7 @@ navbar:
       href: resume.html
     - text: "Dashboard"
       icon: fa-gear
-      href: Dashboard.html
+      href: dashboard.html
     - text: "Linkedin"
       icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/yimin-chen-984864224/
