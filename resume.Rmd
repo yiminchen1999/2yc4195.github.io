@@ -1,0 +1,103 @@
+---
+title: "Resume"
+output: html_document
+---
+
+
+```{r out.height = "460px", out.width='800px', echo=F}
+knitr::include_graphics("files/yiminchen_resumev2.pdf")
+```
+
+RESUME IN WORDS
+
+PROFESSIONAL SUMMARY
+
+- Detail-focused Data Analyst & Statistician with knowledge in data warehousing, process validation, and needs analysis. Proven to understand customer requirements and translate them into actionable project plans. Dedicated and motivated professional with proven skills driving process and data integrity improvements, data analytics, and process mapping. Highly organized, motivated and diligent individual with an advanced understanding of statistical, algebraic, and other analytical techniques.
+
+
+EDUCATION
+ 
+- Master of Science, Biostatistics, Public Health Data Science, Expected in 2024
+
+  Columbia University 
+  
+  Selected coursework: Data Science, Statistical Inference, SQL
+
+- Bachelor of Science, Health Science, 01/2022 
+
+  Boston University - Boston, MA 
+  
+  Minor: Statistics - Statistical Methods Track
+  Selected coursework: Calculus I & II, Statistics I & II, Analytics Variance, Epidemiology,      Research Global Health, Qualitative Research Strategies in Global Health, Global Health,        Computer Science I, Data Science in R, Applied Multiple Regression and Multivariable, Biology   I & II, General Chemistry I & II
+
+
+
+PROFESSIONAL EXPERIENCE
+
+- Data Analyst Intern, 03/2021 - 08/2021 
+
+  Suzhou Institute of BME, Chinese Academy of Sciences, Suzhou, China 
+  
+	-Identified, analyzed, and interpreted trends or patterns in complex data sets by finding correlations and visualizing them with charts.
+	
+	-Worked in a laboratory environment, assisted with experiment plans, collected relevant data, and performed data selection.
+	
+	-Used Python and Matlab to merge datasets, evaluate data, and conducted regression analysis based on findings.
+	
+	-Cleaned up and backed up data to maintain data integrity during extraction, manipulation, and processing.
+
+
+- Data Analyst Intern, 04/2022 - 08/2022
+
+  Siemens AG, Suzhou, China 
+  
+  -Utilized Python and related libraries such as pandas to perform preliminary data cleaning, feature selection, and model selection. 
+  
+  -Developed algorithm testing based on machine learning skills to track the validity of these testing dataset and their outcomes.
+  
+  -Ran data analysis reports and distributed them to management staff.
+
+
+
+PROJECTS
+
+- Data Science Project - Analysis of the COVID Vaccine Stock Market,
+
+  09/2021–12/2021
+
+  -Extracted live stock market data from Yahoo Finance and applied the R language to quantitative analysis.
+  -Performed analysis of stock data involving stock return visualization and forecast evaluation.
+
+- Research Project - Statistical Data Science for Public Health and Biomedicine,
+
+  05/2021–11/2021
+  
+  -Conducted a survival analysis on breast cancer patients using R language.
+ 
+  -Developed and applied Cox models to each component to study the relationship between factors and patient survival.
+
+- Research Project - Qualitative Public Health Research, 
+
+  01/2021–05/2021
+  
+  -Examined how asynchronous class schedules affect students' usual eating routines and daily food choices.
+ 
+  -Employed several qualitative research techniques such as in-depth interviews and photovoice and developed a website to convey the findings.
+
+
+
+PUBLISHED WORK
+
+- Yimin Chen, Cox Regression Analysis on The Survival Rate of Breast Cancer Patients, published in 2021, International Conference on Statistics, Applied Mathematics and Computing Science (CSAMCS 2021)
+
+
+
+TECHNICAL SKILLS
+
+- Python
+- Java
+- R
+- Matlab
+- Adobe Photoshop
+- Microsoft Office
+

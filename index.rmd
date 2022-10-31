@@ -1,0 +1,31 @@
+---
+title: "Homepage"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: journal
+---
+
+<img src="files/images.png" style="width:80%"align="center">
+
+## Hi!  This is Yimin Chen's personal webiste. 
+
+This was created as one homework of the P8105 Data Science I course in Columbia University. It might be further developed as my personal website in the future!
+
+Please feel free to look around: you'll find some information and contact about me! 
+
+
+
+Quick route to other pages:
+
+ 1.[About](about.html)
+ 
+ 2.[Dashboard](dashboard.html)
+ 
+ 3.[Resume](resume.html)
+ 
+ 
+<img src="files/images 3.jpeg" style="width:30%"align="left">
+<img src="files/images 3.jpeg" style="width:30%"align="right">
+

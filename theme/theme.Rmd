@@ -1,0 +1,9 @@
+---
+# R Markdown usage
+title: "theme"
+output:
+  html_document:
+    theme:
+      bootswatch: minty
+
+---

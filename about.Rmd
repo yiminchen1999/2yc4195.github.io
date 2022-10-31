@@ -1,0 +1,22 @@
+---
+title: "About me"
+output: html_document
+---
+
+
+<img src="files/WechatIMG6.jpeg" style="width:60%; margin-right: 15px" align="left">
+
+
+
+
+I'm a first-year MS student in Biostatistics with Public Health Data Science. 
+
+My background demonstrates comprehensive experience in managing database programs, extracting and evaluating sophisticated data, and translating results into understandable terms to inform strategic planning and facilitate improved operations. 
+
+Additionally, my superior communication and multitasking skills allow me to excel in driving project life cycles and ensuring optimal data quality and integrity. Through my experience and academic projects, I have become well versed in conducting research and analyzing data.
+
+You can find a resume [here](resume.html)
+
+<img src="files/WechatIMG7.jpeg" style="width:60%; margin-right: 15px" align="left">
+Below is my dog!
+

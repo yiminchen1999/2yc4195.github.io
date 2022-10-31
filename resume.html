@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">
+    <span class="fa fa-solid fa-address-card"></span>
+     
+    About
+  </a>
+</li>
+<li>
+  <a href="resume.html">
+    <span class="fa fa-solid fa-info"></span>
+     
+    Resume
+  </a>
+</li>
+<li>
+  <a href="dashboard.html">
+    <span class="fa fa-gear"></span>
+     
+    Dashboard
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/yimin-chen-984864224/">
+    <span class="fa fa-brands fa-linkedin"></span>
+     
+    Linkedin
+  </a>
+</li>
+<li>
+  <a href="mailto:&lt;yc4195@cumc.columbia.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/yiminchen1999">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resume</h1>
+
+</div>
+
+
+<embed src="files/yiminchen_resumev2.pdf" width="800px" height="460px" type="application/pdf" />
+<p>RESUME IN WORDS</p>
+<p>PROFESSIONAL SUMMARY</p>
+<ul>
+<li>Detail-focused Data Analyst &amp; Statistician with knowledge in
+data warehousing, process validation, and needs analysis. Proven to
+understand customer requirements and translate them into actionable
+project plans. Dedicated and motivated professional with proven skills
+driving process and data integrity improvements, data analytics, and
+process mapping. Highly organized, motivated and diligent individual
+with an advanced understanding of statistical, algebraic, and other
+analytical techniques.</li>
+</ul>
+<p>EDUCATION</p>
+<ul>
+<li><p>Master of Science, Biostatistics, Public Health Data Science,
+Expected in 2024</p>
+<p>Columbia University</p>
+<p>Selected coursework: Data Science, Statistical Inference,
+SQL</p></li>
+<li><p>Bachelor of Science, Health Science, 01/2022</p>
+<p>Boston University - Boston, MA</p>
+<p>Minor: Statistics - Statistical Methods Track Selected coursework:
+Calculus I &amp; II, Statistics I &amp; II, Analytics Variance,
+Epidemiology, Research Global Health, Qualitative Research Strategies in
+Global Health, Global Health, Computer Science I, Data Science in R,
+Applied Multiple Regression and Multivariable, Biology I &amp; II,
+General Chemistry I &amp; II</p></li>
+</ul>
+<p>PROFESSIONAL EXPERIENCE</p>
+<ul>
+<li><p>Data Analyst Intern, 03/2021 - 08/2021</p>
+<p>Suzhou Institute of BME, Chinese Academy of Sciences, Suzhou,
+China</p>
+<p>-Identified, analyzed, and interpreted trends or patterns in complex
+data sets by finding correlations and visualizing them with charts.</p>
+<p>-Worked in a laboratory environment, assisted with experiment plans,
+collected relevant data, and performed data selection.</p>
+<p>-Used Python and Matlab to merge datasets, evaluate data, and
+conducted regression analysis based on findings.</p>
+<p>-Cleaned up and backed up data to maintain data integrity during
+extraction, manipulation, and processing.</p></li>
+<li><p>Data Analyst Intern, 04/2022 - 08/2022</p>
+<p>Siemens AG, Suzhou, China</p>
+<p>-Utilized Python and related libraries such as pandas to perform
+preliminary data cleaning, feature selection, and model selection.</p>
+<p>-Developed algorithm testing based on machine learning skills to
+track the validity of these testing dataset and their outcomes.</p>
+<p>-Ran data analysis reports and distributed them to management
+staff.</p></li>
+</ul>
+<p>PROJECTS</p>
+<ul>
+<li><p>Data Science Project - Analysis of the COVID Vaccine Stock
+Market,</p>
+<p>09/2021–12/2021</p>
+<p>-Extracted live stock market data from Yahoo Finance and applied the
+R language to quantitative analysis. -Performed analysis of stock data
+involving stock return visualization and forecast evaluation.</p></li>
+<li><p>Research Project - Statistical Data Science for Public Health and
+Biomedicine,</p>
+<p>05/2021–11/2021</p>
+<p>-Conducted a survival analysis on breast cancer patients using R
+language.</p>
+<p>-Developed and applied Cox models to each component to study the
+relationship between factors and patient survival.</p></li>
+<li><p>Research Project - Qualitative Public Health Research,</p>
+<p>01/2021–05/2021</p>
+<p>-Examined how asynchronous class schedules affect students’ usual
+eating routines and daily food choices.</p>
+<p>-Employed several qualitative research techniques such as in-depth
+interviews and photovoice and developed a website to convey the
+findings.</p></li>
+</ul>
+<p>PUBLISHED WORK</p>
+<ul>
+<li>Yimin Chen, Cox Regression Analysis on The Survival Rate of Breast
+Cancer Patients, published in 2021, International Conference on
+Statistics, Applied Mathematics and Computing Science (CSAMCS 2021)</li>
+</ul>
+<p>TECHNICAL SKILLS</p>
+<ul>
+<li>Python</li>
+<li>Java</li>
+<li>R</li>
+<li>Matlab</li>
+<li>Adobe Photoshop</li>
+<li>Microsoft Office</li>
+</ul>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      icon: fa-solid fa-address-card
+      href: about.html
+    - text: "Resume"
+      icon: fa-solid fa-info
+      href: resume.html
+    - text: "Dashboard"
+      icon: fa-gear
+      href: dashboard.html
+    - text: "Linkedin"
+      icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/yimin-chen-984864224/
+    - icon: fa-envelope fa-lg
+      href: mailto:<yc4195@cumc.columbia.com>
+    - icon: fa-github fa-lg
+      href: https://github.com/yiminchen1999
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+  
+
+  
