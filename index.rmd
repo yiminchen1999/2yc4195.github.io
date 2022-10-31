@@ -4,7 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cosmo
+    theme: journal
 ---
 
 <img src="files/images.png" style="width:80%"align="center">
