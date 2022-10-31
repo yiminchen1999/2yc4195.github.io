@@ -21,7 +21,7 @@ navbar:
       href: https://github.com/yiminchen1999
 output:
   html_document:
-    theme: journal
+    theme: cosmo
     highlight: textmate
   
 
