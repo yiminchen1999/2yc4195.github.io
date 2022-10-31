@@ -1,0 +1,64 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r, include=FALSE}
+data(instacart)
+instacart = instacart %>% 
+  sample_n(1000)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### scatterplot
+
+```{r}
+instacart %>%
+  group_by(department) %>%
+  summarize(n_obs = n())%>%
+  mutate(text_label = str_c("\nDepartmentname: ",  department, "\nNumber of items: ",n_obs)) %>%
+  plot_ly(
+    x = ~department, y = ~n_obs,type = "scatter", mode = "markers",color = ~department,colors = "viridis",  text = ~text_label, alpha = 0.8)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### bar
+
+```{r}
+instacart %>%
+  group_by(aisle) %>%
+  summarize(n_obs = n())%>%
+  arrange(desc(n_obs))%>%
+  mutate(
+        aisle = factor(aisle),
+        aisle = fct_reorder(aisle, n_obs)
+    ) %>%
+  mutate(text_label = str_c("\nAisle ID: $", aisle, "\nNumber of items: ",n_obs)) %>% 
+  plot_ly(
+    x = ~aisle, y = ~n_obs ,color = ~aisle, type = "bar", colors = "viridis",
+     text = ~text_label, alpha = 0.8)
+
+```
+
+
+
+### boxplot
+```{r}
+instacart %>% 
+  mutate(department = fct_reorder(department, order_number)) %>% 
+  plot_ly(x = ~department, y = ~order_number, color = ~department, type = "box", colors = "viridis")
+```
