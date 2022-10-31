@@ -21,7 +21,7 @@ Quick route to other pages:
 
  1.[About](about.html)
  
- 2.[Dashboard](dashboard.html)
+ 2.[Dashboard](Dashboard.html)
  
  3.[Resume](resume.html)
  
